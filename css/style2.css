@@ -1,0 +1,328 @@
+html{
+    font-size: 62.5%;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: black;
+}
+.bodyGuerreros{
+    background-color: black;
+}
+.colorFondo{
+    background-color: black;
+}
+nav{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+.titulo{
+    font-size: 12rem;
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    padding: 0;
+}
+
+main{
+    background-color: black;
+    grid-area: main;
+}
+main section p{
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Ibarra Real Nova', serif;
+    color: whitesmoke;
+    margin: 2rem;
+    padding: 0;
+          
+}
+section{
+    grid-area: sec;
+}
+footer{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.tablaLogros{
+    color: antiquewhite;
+    background-color: antiquewhite;
+    position: center;
+    font-size: 20px;
+    width: 50%;
+    margin-top: -60rem;
+    padding: 0;
+    background: rgb(55,26,77);
+    background: linear-gradient(90deg, rgba(55,26,77,1) 48%, rgba(2,0,36,1) 100%, rgba(124,0,255,1) 100%);
+}
+
+
+ul {
+    list-style: none;
+    font-size:0 /* truco por el uso de inline-block*/
+ }
+ li {
+    
+    width: 25%;
+    position:relative;
+    font-size: 14px
+ }
+ ul ul {
+    position: absolute;
+    display: none;
+ }
+ ul ul li {
+    display: block;
+ }
+ ul li:hover ul {
+    display:block;
+ }
+
+ .listaBanda{
+    border: 1px solid black;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0.3rem 0.6rem;
+    margin: 0 0.8rem;
+}
+.listaBanda header nav ul li:hover{
+
+    background-color: midnightblue;
+    color: whitesmoke;
+    
+}
+.botonCompra{
+    background-color: #002D62;
+    color: aqua;
+}
+.holaProbando{
+    font-size: 130px;
+}
+img{
+    width: 100%;
+}
+#mapa{
+    width: auto;
+    margin-left: 30rem;
+    padding: 15rem;
+    border-radius: 3rem;
+}
+.exploracionMapa h1{
+    font-size: 6rem;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+
+@media screen and (max-width: 768px) {
+    div{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "main main"
+                             "footer footer"
+                             "header header"  
+                            "creacion creacion";
+    }
+    
+}
+.afortunadoLogro{
+    display: flex;
+    width: auto;
+}
+.box{
+    display: flex;
+    transition: all 3s;
+    margin-left: 65rem;
+
+}
+.box:hover{
+    
+    transform: scale(2);
+    
+}
+.elCaballero{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-size: 3rem;
+    width: 50%;
+    margin: 2rem;
+    padding: 2rem;
+}
+.elCaballero header{
+    grid-area: header;
+    background-color: black;
+}
+.elCaballero div{
+    grid-area: div;
+    background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .elCaballero{
+        grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "header div "
+                         "div div ";
+    }
+}
+.cambioColor-links{
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+}
+.tituloExploracion{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+}
+.bodyExploracion{
+    background-color: black;
+}
+.tamañoPrimerSlide{
+    font-size: 20px;
+}
+.tamañoSegundoSlide{
+    font-size: 20px;
+}
+.tamañoTercerSlide{
+    font-size: 20px;
+}
+.posicionSlide{
+    display: flex;
+    margin-left: 65rem;
+    float: right;
+    margin-top: 40rem;
+    margin-bottom: -40rem;
+    
+}
+
+.bandaSonoraTitulo{
+    font-size: 50px;
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Cormorant SC', serif;
+}
+.zonasMapa{
+    display: flex;
+    margin-left: -20rem;
+    margin-top: -25rem;
+    width: 30vw;
+}
+.zonasMapa a{
+    background-color: black;
+    color: antiquewhite;
+    font-size: 15px;
+}
+.descripcionZonasMapa{
+    display: flex;
+    margin-left: -25rem;
+    color: antiquewhite;
+    font-size: 13px;
+}
+.caballeroAcomodo{
+    display: flex;
+    flex-direction: row;
+}
+.introduccion::first-letter{
+
+    font-size: 35px;
+}
+.introduccion{
+    text-align: left;
+}
+
+.quirrelLago{
+    display: flex;
+    float: right;
+    margin-top: -120rem;
+    margin-right: 46rem;
+    
+}
+.imagenAlargada{
+    display: flex;
+    float: right;
+    width: 40%;
+    height: 0px;
+    margin-bottom: 53rem;
+    margin-left: 70rem;
+    margin-top: -32rem ;
+    margin-right: 10rem;
+}
+.imagenVertical{
+    display: flex;
+    width: 15%;
+    padding: 0;
+    margin-left: 150rem;
+    margin-bottom: 70rem;
+    margin-top: -27rem;
+}
+.iconoNavbar{
+    width: 10%;
+    padding: 0;
+    margin: 0;
+}
+.nav-link a{
+    color: antiquewhite;
+}
+.navClass{
+    background-color: black;
+    text-align: left;
+}
+.navClass a{
+    color: antiquewhite;
+}
+.navClass a:hover{
+    color: cornflowerblue;
+}
+.navClass img{
+    width: 3vw;
+}
+.navClass button{
+    background-color: grey;
+}
+.tituloGuerreros{
+    font-size: 60px;
+    color: antiquewhite;
+    font-family: 'Cormorant SC', serif;
+}
+.textoCorto p{
+    font-size: 1.7rem;
+    color: grey;
+    font-family: 'Cormorant SC', serif;
+}
+.textoCorto img{
+    position: relative;
+} 
+.imagenDeFondo{
+    background-image:url(../img/guerreros.png);
+    background-position: absolute;
+    background-repeat:repeat;
+}
+.imagenDeFondo div svg{
+    border-radius: 3rem;
+}
+.imagenDeFondo div{
+    border-radius: 3rem;
+}
+
+.footerExploracion{
+    width: auto;
+    margin-top: 60rem;
+}
+
