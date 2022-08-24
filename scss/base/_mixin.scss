@@ -1,0 +1,10 @@
+@mixin titulos{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+$colors:black;
+@mixin colores($colors){
+       background-color: $colors;
+}
+

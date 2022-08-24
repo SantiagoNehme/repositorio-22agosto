@@ -1,3 +1,10 @@
+@import './base/variables';
+@import './base/listas';
+@import './base/maps';
+@import './base/mixin';
+@import './base/extend';
+@import './base/operadores';
+
 main{
     background-color: black;
     grid-area: main;

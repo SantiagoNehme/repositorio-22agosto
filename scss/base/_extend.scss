@@ -1,0 +1,9 @@
+%disposicion{
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+}
+footer{
+    @extend %disposicion;
+    
+}

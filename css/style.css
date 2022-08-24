@@ -1,3 +1,9 @@
+footer {
+  text-align: center;
+  background-color: black;
+  font-size: 20px;
+}
+
 main {
   background-color: black;
   grid-area: main;
@@ -182,6 +188,10 @@ img {
 
 .textoRecuadros {
   font-family: "Cormorant SC", serif;
+}
+
+.colorBoton {
+  background-color: black;
 }
 
 .bodyGuerreros {
